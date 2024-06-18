@@ -2,3 +2,27 @@
   background-color: #f0f0f0;
   padding: 10px;
 }
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.text-light {
+  color: #f8f9fa !important;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+}

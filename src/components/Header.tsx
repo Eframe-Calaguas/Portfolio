@@ -1,9 +1,12 @@
 import React from "react";
+import styles from "../styles/Header.module.css";
 
 const Header: React.FC = () => {
   return (
-    <div className="header bg-light p-2 d-flex flex-row mb-3 justify-content-between">
-      <h1 className="title fs-3">EFC</h1>
+    <div
+      className={`${styles["sticky-header"]} ${styles["bg-dark"]} p-3 d-flex flex-row mb-3 justify-content-between text-light`}
+    >
+      <h1 className={`${styles["title"]} fs-3`}>EFC</h1>
       <nav>
         <ul className="nav">
           <li className="nav-item">

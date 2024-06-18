@@ -7,9 +7,9 @@ import HomePage from "./pages/HomePage";
 
 const App: React.FC = () => {
   return (
-    <div className="App d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column min-vh-100 container">
       <Header />
-      <div className="bg-dark text-light p-5 flex-grow-1 mb-3">
+      <div className="flex-grow-1 mb-3">
         <HomePage />
       </div>
       <Footer />
