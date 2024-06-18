@@ -7,17 +7,69 @@ const SkillsPage: React.FC = () => {
       <div className="py-5">
         <h1>My Skills</h1>
       </div>
-      <div className="d-flex gap-3 m-1">
-        <div className="box">Java</div>
-        <div className="box">Spring Boot</div>
+      <div className="container text-light">
+        <div className="row mb-3">
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">JAVA</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">SPRING BOOT</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">PHP</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">JAVASCRIPT</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">REACT JS</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">HTML</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">CSS</div>
+          </div>
+          <div className="col-md-3 mb-3">
+            <div className="box bg-dark p-3">BOOTSTRAP</div>
+          </div>
+        </div>
       </div>
-      <div className="d-flex gap-3 m-1">
-        <div className="box">PHP</div>
-        <div className="box">Javascript</div>
+      <div
+        className="text-center py-5 m-1"
+        style={{ backgroundColor: "#d3d3d3" }}
+      >
+        <h5>
+          2020 - 2021 placerat in massa consectetur quisque. Nunc ac fames
+          lectus in libero aliquet est setera nunc.
+        </h5>
       </div>
-      <div className="d-flex gap-3 m-1">
-        <div className="box">HTML</div>
-        <div className="box">CSS</div>
+      <div
+        className="text-center py-5 m-1"
+        style={{ backgroundColor: "#d3d3d3" }}
+      >
+        <h5>
+          2020 - 2021 placerat in massa consectetur quisque. Nunc ac fames
+          lectus in libero aliquet est setera nunc.
+        </h5>
+      </div>
+      <div
+        className="text-center py-5 m-1"
+        style={{ backgroundColor: "#d3d3d3" }}
+      >
+        <h5>
+          2020 - 2021 placerat in massa consectetur quisque. Nunc ac fames
+          lectus in libero aliquet est setera nunc.
+        </h5>
+      </div>
+      <div
+        className="text-center py-5 m-1"
+        style={{ backgroundColor: "#d3d3d3" }}
+      >
+        <h5>
+          2020 - 2021 placerat in massa consectetur quisque. Nunc ac fames
+          lectus in libero aliquet est setera nunc.
+        </h5>
       </div>
     </div>
   );
